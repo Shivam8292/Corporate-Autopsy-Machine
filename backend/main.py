@@ -1,20 +1,29 @@
 from fastapi import FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from contextlib import asynccontextmanager
 from pydantic import BaseModel
 import os
 import shutil
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from rag_pipeline import run_autopsy
+from seed_data import ingest_baseline_data
 
-app = FastAPI(title="Corporate Autopsy API")
+@asynccontextmanager
+async def lifespan(app):
+    # Auto-seed ChromaDB on startup
+    ingest_baseline_data()
+    yield
+
+app = FastAPI(title="Corporate Autopsy API", lifespan=lifespan)
 
 # Add CORS Middleware
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:5174,http://localhost:3000").split(",")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -72,7 +81,7 @@ async def ingest_file(file: UploadFile = File(...)):
             loader = TextLoader(tmp_path)
             
         docs = loader.load()
-        splitter = RecursiveCharacterTextSplitter(chunk_size=800, overlap=150)
+        splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=150)
         chunks = splitter.split_documents(docs)
         
         vs = get_vectorstore()
