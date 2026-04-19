@@ -1,0 +1,202 @@
+[
+  {
+    "company": "Olive",
+    "description": "Olive offered healthcare AI solutions that automated key tasks like prior authorization approvals and clinical analysis for surgeries. It consistently drew fresh capital over its lifetime, raising a new round nearly every year following its founding in 2012. However, the combination of challenging economic conditions, evolving customer expectations, and management missteps led the company to sell off its core assets and shut down. Select VC investors: Silicon Valley Bank, Google Ventures, Sequoia Capital, Tiger Global Management. Total equity funding: $850M. Peak valuation: $4B."
+  },
+  {
+    "company": "Convoy",
+    "description": "Convoy operated a digital freight network that attracted investors like Jeff Bezos and Bill Gates. However, the company — run by executives without trucking experience — struggled to transform its intentionally money-losing model into a profitable business. Its financial challenges were exacerbated by a downturn in shipping demand and the contraction in the venture capital market. Select VC investors: Bill Gates, Jeff Bezos, Marc Benioff, Y Combinator, CapitalG. Total equity funding: $836M. Peak valuation: $3.8B."
+  },
+  {
+    "company": "Hyperloop One",
+    "description": "Hyperloop One’s mission was to develop a high-speed transportation system that could propel passengers at speeds up to 760 miles per hour. Despite raising millions of dollars, it ultimately failed to overcome technical and regulatory obstacles, resulting in its shutdown. Select VC investors: Virgin Group, DP World, Khosla Ventures, GE Ventures. Total equity funding: $472M. Peak valuation: $700M."
+  },
+  {
+    "company": "InVision",
+    "description": "InVision was a collaborative product design platform. It raised several funding rounds over its 13-year run, including a $115M Series F round at a $1.9B valuation in 2018. However, it did not raise any further rounds and allowed its products to grow stale, enabling competitors like Figma to get ahead. Select VC investors: Tiger Global Management, Accel, Atlassian, Goldman Sachs. Total equity funding: $350M. Peak valuation: $1.9B."
+  },
+  {
+    "company": "Ghost Autonomy",
+    "description": "Ghost Autonomy was a developer of autonomous driving software. The company pivoted multiple times but struggled to commercialize its products successfully despite raising substantial funding. It ultimately could not secure the long-term investment needed for commercialization. Select VC investors: OpenAI Startup Fund, Khosla Ventures, Coatue. Total equity funding: $239M. Peak valuation: $518M."
+  },
+  {
+    "company": "Zeus Living",
+    "description": "Zeus Living leased and furnished properties for corporate extended stays. The startup’s valuation was hit hard at the start of the pandemic, and rising interest rates eventually prevented it from generating sufficient revenue. Select VC investors: Airbnb, Comcast Ventures, Alumni Ventures. Total equity funding: $139M. Peak valuation: $205M."
+  },
+  {
+    "company": "Avail",
+    "description": "Avail developed technologies that enabled clinicians to communicate with parties outside the operating room. It struggled to maintain momentum in the post-pandemic period and could not secure the new capital necessary for growth. Select VC investors: D1 Capital Partners, Playground Global, Coatue, Baidu Ventures. Total equity funding: $138M. Peak valuation: $290M."
+  },
+  {
+    "company": "Superpedestrian",
+    "description": "Superpedestrian was a micromobility startup focused on electric scooters. It faced challenges including city regulations, compliance costs, and financial strain. A planned merger fell through, forcing it to close. Select VC investors: General Catalyst, Sony Innovation Fund, Citi Ventures, Spark Capital. Total equity funding: $118M. Peak valuation: $560M."
+  },
+  {
+    "company": "Phantom Auto",
+    "description": "Phantom Auto initialy supported autonomous vehicles on public roads before pivoting to logistics. It failed to secure the additional funding necessary to continue operations amid the venture slowdown. Select VC investors: Alumni Ventures, Bessemer Venture Partners, ArcBest, NFI. Total equity funding: $86M. Peak valuation: $525M."
+  },
+  {
+    "company": "Walking Fish Therapeutics",
+    "description": "Focused on B-cell-based therapies, Walking Fish Therapeutics was in the process of raising a Series B when an investor pulled out due to real estate debt concerns. Unable to replace the investor, the startup closed down. Select VC investors: First Spark Ventures, Northpond Ventures, Terra Magnum Capital Partners. Total equity funding: $73M. Peak valuation: $102M."
+  },
+  {
+    "company": "Koyo",
+    "description": "Open banking lender Koyo Loans wound down after failing to raise equity funding. While flush with debt funding, it was unable to secure fresh capital amid broader economic turbulence."
+  },
+  {
+    "company": "Intergalactic Therapeutics",
+    "description": "A gene therapy startup focused on non-viral delivery via electroporation. It was unable to secure additional funding in a harsh environment for early-stage biotechnology."
+  },
+  {
+    "company": "Multichain",
+    "description": "Cross-chain router protocol Multichain shuttered after its CEO was reportedly arrested in China and operational funds were confiscated."
+  },
+  {
+    "company": "Recur",
+    "description": "NFT platform Recur closed due to unforeseen challenges and significant shifts in the business landscape, having reached the end of its runway from its 2021 funding."
+  },
+  {
+    "company": "Casai",
+    "description": "Mexico-based proptech Casai folded due to an investment drought and a business model that was no longer favored by VC investors."
+  },
+  {
+    "company": "XACT Robotics",
+    "description": "Medical robotics startup that failed to generate significant revenue and was unable to raise capital or complete an acquisition."
+  },
+  {
+    "company": "54gene",
+    "description": "African genomics startup that closed due to financial mismanagement, executive turnover, and the capital-intensive nature of the business."
+  },
+  {
+    "company": "Fronted",
+    "description": "Digital lending startup for renters hit by rising interest rates and borrowing costs that doubled the planned product price."
+  },
+  {
+    "company": "Resson",
+    "description": "Agtech firm that used drones and data analytics for crop management, abruptly shut down despite significant funding."
+  },
+  {
+    "company": "BAKX Therapeutics",
+    "description": "Biotech focused on cancer therapies that dissolved due to scientific challenges and a difficult funding environment."
+  },
+  {
+    "company": "Zume",
+    "description": "Softbank-backed robot pizza startup that burned through $446M. It struggled with technical issues like cheese sliding off pizzas and was unable to generate revenue."
+  },
+  {
+    "company": "IRL",
+    "description": "Unicorn social app that shut down after an internal investigation revealed that 95% of its 20M users were fake."
+  },
+  {
+    "company": "Vedere Bio II",
+    "description": "Ocular gene therapeutics startup that closed after preclinical studies failed to meet efficacy criteria."
+  },
+  {
+    "company": "Fuzzy",
+    "description": "Pet healthcare startup that shuttered due to financial mismanagement and an economically unviable business model."
+  },
+  {
+    "company": "Buzzer",
+    "description": "Live sports streaming startup that failed to transition from a B2C to a B2B model in a tight fundraising market."
+  },
+  {
+    "company": "Cana Technology",
+    "description": "Molecular beverage printer startup that was unable to secure funding to manufacture and ship devices despite having a prototype."
+  },
+  {
+    "company": "Wyre",
+    "description": "Crypto infrastructure platform that wound down due to poor market conditions after a $1.5B acquisition deal fell through."
+  },
+  {
+    "company": "Summation Bio",
+    "description": "Gene therapy biotech that closed when its research revealed the therapies would not work as expected."
+  },
+  {
+    "company": "Seeker Biologics",
+    "description": "Biotech focused on autoimmune diseases that fell short of drug discovery goals in a demanding market."
+  },
+  {
+    "company": "Tessera",
+    "description": "NFT ownership platform that wound down after analyzing market scenarios and its financial situation."
+  },
+  {
+    "company": "Mandolin",
+    "description": "Livestream concert platform that thrived during the pandemic but struggled as in-person tours resumed."
+  },
+  {
+    "company": "Goldfinch Bio",
+    "description": "Kidney treatment biotech that closed after disappointing clinical trial results and funding challenges."
+  },
+  {
+    "company": "Mindstrong",
+    "description": "Mental health platform that achieved unicorn status but failed to stay afloat during a funding slowdown."
+  },
+  {
+    "company": "Aristea Therapeutics",
+    "description": "Biotech startup that shuttered its business after safety concerns were found in its lead drug's clinical trials."
+  },
+  {
+    "company": "CODA Biotherapeutics",
+    "description": "Gene therapy startup for neurological diseases that ceased operations amid a slowdown in venture funding."
+  },
+  {
+    "company": "Tascent",
+    "description": "Biometric authentication startup that failed due to the difficulty of scaling manufacturing processes."
+  },
+  {
+    "company": "New Age Meats",
+    "description": "Cultivated meat startup that ran out of money and hit a financial rough patch after building an expensive pilot facility."
+  },
+  {
+    "company": "Food Rocket",
+    "description": "Ultrafast grocery delivery firm that burned through funding and was unable to bring in additional capital."
+  },
+  {
+    "company": "Clim8",
+    "description": "Sustainable investment fintech that was unable to secure further venture capital due to rising inflation and market shifts."
+  },
+  {
+    "company": "TenureX",
+    "description": "Fintech startup that closed due to a lack of funding despite finding product-market fit."
+  },
+  {
+    "company": "Formfunction",
+    "description": "Solana NFT marketplace that shuttered amid a slump in the Solana NFT market."
+  },
+  {
+    "company": "Argo AI",
+    "description": "High-profile autonomous vehicle startup backed by Ford and VW. It shut down after failing to attract new investors for robotaxi development."
+  },
+  {
+    "company": "Faze Medicines",
+    "description": "Biotech startup that focused on ALS treatments but folded when the science did not progress sufficiently for further investment."
+  },
+  {
+    "company": "Triplet Therapeutics",
+    "description": "Gene-silencing biotech that wound down after discouraging clinical trial data from its competitors."
+  },
+  {
+    "company": "Nuri",
+    "description": "German crypto exchange that filed for insolvency after the collapse of a business partner and challenging market developments."
+  },
+  {
+    "company": "GloriFi",
+    "description": "Neobank for conservatives that shut down following a turbulent launch characterized by workplace issues and vendor disputes."
+  },
+  {
+    "company": "Fifth Season Collection",
+    "description": "Vertical farming robotics startup that closed after struggling to raise capital for its capital-heavy operating model."
+  },
+  {
+    "company": "ProntoPiso",
+    "description": "Spanish proptech startup that suffered due to pandemic-related challenges and a change in business model."
+  },
+  {
+    "company": "Kite",
+    "description": "AI-assisted coding startup that realized its product would not monetize effectively despite increasing developer speed."
+  },
+  {
+    "company": "Curb Food",
+    "description": "Dark kitchen network startup that proved unsustainable in poor capital market conditions."
+  }
+]
