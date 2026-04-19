@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Special+Elite&display=swap');
+
+:root {
+  --bg: #060606;
+  --bg-panel: #0a0a0a;
+  --border: #1e1e1e;
+  --border-accent: #ff2d2d33;
+  --red: #ff2d2d;
+  --red-dim: #cc2020;
+  --green: #00cc55;
+  --text-primary: #e0e0e0;
+  --text-secondary: #888;
+  --text-dim: #444;
+  --text-ghost: #2a2a2a;
+  --font-mono: 'Share Tech Mono', monospace;
+  --font-serif: 'Special Elite', serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(255, 45, 45, 0.03),
+    rgba(255, 45, 45, 0.03) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 9999;
+  animation: scanline 10s linear infinite;
+}
+
+@keyframes scanline {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.panel {
+  border: 1px solid var(--border);
+  padding: 24px;
+  position: relative;
+  background: rgba(255, 45, 45, 0.015);
+  margin-bottom: 20px;
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.panel-label {
+  position: absolute;
+  top: -9px;
+  left: 18px;
+  background: var(--bg);
+  color: var(--red);
+  font-size: 9px;
+  padding: 0 8px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--red-dim), transparent);
+  margin: 24px 0;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid var(--red);
+  background: transparent;
+  color: var(--red);
+  font-family: var(--font-mono);
+  transition: all 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+  background: var(--red);
+  color: #000;
+}
+
+button:disabled {
+  border-color: var(--text-dim);
+  color: var(--text-dim);
+  cursor: not-allowed;
+}
+
+input, textarea {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  padding: 12px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--red);
+}
+
+.text-dim { color: var(--text-dim); }
+.text-red { color: var(--red); }
+.text-green { color: var(--green); }
+.font-serif { font-family: var(--font-serif); }
