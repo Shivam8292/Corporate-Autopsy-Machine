@@ -4,6 +4,7 @@ from langchain_chroma import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.llms import Ollama
 from dotenv import load_dotenv
 
@@ -93,6 +94,15 @@ async def run_autopsy(idea: str) -> dict:
             llm = ChatGroq(
                 groq_api_key=api_key,
                 model_name=os.getenv("GROQ_MODEL", "mixtral-8x7b-32768"),
+                temperature=0.2
+            )
+        elif provider == "google":
+            api_key = os.getenv("GEMINI_API_KEY")
+            if not api_key:
+                return {"error": "GEMINI_API_KEY is missing in .env."}
+            llm = ChatGoogleGenerativeAI(
+                model=os.getenv("GOOGLE_MODEL", "gemini-1.5-flash"),
+                google_api_key=api_key,
                 temperature=0.2
             )
         else:
