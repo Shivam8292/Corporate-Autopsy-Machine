@@ -6,7 +6,6 @@ langchain-google-genai
 langchain-community
 langchain-chroma
 chromadb
-sentence-transformers
 PyPDF2
 python-dotenv
 python-multipart

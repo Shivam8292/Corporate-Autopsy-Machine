@@ -1,6 +1,6 @@
 import os
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from embeddings import get_embedding_function
 from langchain_chroma import Chroma
 from dotenv import load_dotenv
 from langchain_core.documents import Document
@@ -200,9 +200,7 @@ def ingest_baseline_data():
         vectorstore = Chroma(
             collection_name=os.getenv("COLLECTION_NAME", "startup_failures"),
             persist_directory=os.getenv("CHROMA_PATH", "./chroma_db"),
-            embedding_function=HuggingFaceEmbeddings(
-                model_name=os.getenv("EMBED_MODEL", "all-MiniLM-L6-v2")
-            )
+            embedding_function=get_embedding_function()
         )
         
         # Prevent duplicate insertion if already exists
@@ -211,7 +209,7 @@ def ingest_baseline_data():
             print(f"Collection already has {count} documents. Skipping seed.")
             return
 
-        splitter = RecursiveCharacterTextSplitter(chunk_size=800, overlap=150)
+        splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=150)
         docs = []
 
         for item in CORPUS:

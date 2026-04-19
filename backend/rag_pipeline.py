@@ -1,7 +1,7 @@
 import os
 import json
 from langchain_chroma import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from embeddings import get_embedding_function
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -55,9 +55,7 @@ async def run_autopsy(idea: str) -> dict:
         vectorstore = Chroma(
             collection_name=os.getenv("COLLECTION_NAME", "startup_failures"),
             persist_directory=os.getenv("CHROMA_PATH", "./chroma_db"),
-            embedding_function=HuggingFaceEmbeddings(
-                model_name=os.getenv("EMBED_MODEL", "all-MiniLM-L6-v2")
-            )
+            embedding_function=get_embedding_function()
         )
 
         # 2. Retrieve chunks (MMR)
@@ -101,7 +99,7 @@ async def run_autopsy(idea: str) -> dict:
             if not api_key:
                 return {"error": "GEMINI_API_KEY is missing in .env."}
             llm = ChatGoogleGenerativeAI(
-                model=os.getenv("GOOGLE_MODEL", "gemini-1.5-flash"),
+                model="gemini-flash-lite-latest",
                 google_api_key=api_key,
                 temperature=0.2
             )
@@ -113,7 +111,14 @@ async def run_autopsy(idea: str) -> dict:
 
         # 6. Invoke LLM and strip json fences
         response = llm.invoke(formatted_prompt)
-        text_response = response.content if hasattr(response, "content") else response
+        if hasattr(response, "content"):
+            text_response = response.content
+        else:
+            text_response = str(response)
+        
+        # Handle cases where content might be a list (e.g. multi-part)
+        if isinstance(text_response, list):
+            text_response = "".join([str(part.get("text", "") if hasattr(part, "get") else part) for part in text_response])
         
         text_response = text_response.strip()
         if text_response.startswith("```json"):

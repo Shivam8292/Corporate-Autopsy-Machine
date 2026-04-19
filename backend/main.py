@@ -7,7 +7,7 @@ import shutil
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from embeddings import get_embedding_function
 from rag_pipeline import run_autopsy
 from seed_data import ingest_baseline_data
 
@@ -36,9 +36,7 @@ def get_vectorstore():
     return Chroma(
         collection_name=os.getenv("COLLECTION_NAME", "startup_failures"),
         persist_directory=os.getenv("CHROMA_PATH", "./chroma_db"),
-        embedding_function=HuggingFaceEmbeddings(
-            model_name=os.getenv("EMBED_MODEL", "all-MiniLM-L6-v2")
-        )
+        embedding_function=get_embedding_function()
     )
 
 @app.get("/")
