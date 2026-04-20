@@ -1,202 +1,1605 @@
 [
   {
     "company": "Olive",
-    "description": "Olive offered healthcare AI solutions that automated key tasks like prior authorization approvals and clinical analysis for surgeries. It consistently drew fresh capital over its lifetime, raising a new round nearly every year following its founding in 2012. However, the combination of challenging economic conditions, evolving customer expectations, and management missteps led the company to sell off its core assets and shut down. Select VC investors: Silicon Valley Bank, Google Ventures, Sequoia Capital, Tiger Global Management. Total equity funding: $850M. Peak valuation: $4B."
+    "description": "Olive offered healthcare AI solutions that automated key tasks like prior authorization approvals and clinical analysis for surgeries. It consistently drew fresh capital over its lifetime, raising a new round nearly every year following its founding in 2012. However, the combination of challenging economic conditions, evolving customer expectations, and management missteps led the company to sell off its core assets and shut down."
   },
   {
     "company": "Convoy",
-    "description": "Convoy operated a digital freight network that attracted investors like Jeff Bezos and Bill Gates. However, the company — run by executives without trucking experience — struggled to transform its intentionally money-losing model into a profitable business. Its financial challenges were exacerbated by a downturn in shipping demand and the contraction in the venture capital market. Select VC investors: Bill Gates, Jeff Bezos, Marc Benioff, Y Combinator, CapitalG. Total equity funding: $836M. Peak valuation: $3.8B."
+    "description": "Convoy operated a digital freight network that attracted investors like Jeff Bezos and Bill Gates. However, the company — run by executives without trucking experience — struggled to transform its intentionally money-losing model into a profitable business. Its financial challenges were only exacerbated by a downturn in shipping demand — and the concurrent contraction in the venture capital market left it without a means to raise cash, leading to its closure."
   },
   {
     "company": "Hyperloop One",
-    "description": "Hyperloop One’s mission was to develop a high-speed transportation system that could propel passengers at speeds up to 760 miles per hour. Despite raising millions of dollars, it ultimately failed to overcome technical and regulatory obstacles, resulting in its shutdown. Select VC investors: Virgin Group, DP World, Khosla Ventures, GE Ventures. Total equity funding: $472M. Peak valuation: $700M."
+    "description": "Hyperloop One’s mission was to develop a high-speed transportation system that could propel passengers at speeds up to 760 miles per hour, and it initially garnered significant investor backing from strategic partners aligned with its vision. Despite raising millions of dollars from these investors, it ultimately failed to overcome technical and regulatory obstacles, resulting in its shutdown."
   },
   {
     "company": "InVision",
-    "description": "InVision was a collaborative product design platform. It raised several funding rounds over its 13-year run, including a $115M Series F round at a $1.9B valuation in 2018. However, it did not raise any further rounds and allowed its products to grow stale, enabling competitors like Figma to get ahead. Select VC investors: Tiger Global Management, Accel, Atlassian, Goldman Sachs. Total equity funding: $350M. Peak valuation: $1.9B."
+    "description": "InVision was a collaborative product design platform. It raised several funding rounds over its 13-year run, including a $115M Series F round at a $1.9B valuation in 2018. However, following that Series F round, InVision did not raise a single disclosed equity round. Some of its users indicated that the company allowed its products to grow stale, enabling competitors like Figma to get ahead over time. In January 2024, the startup announced that it would discontinue its design collaboration services by the end of the year."
   },
   {
     "company": "Ghost Autonomy",
-    "description": "Ghost Autonomy was a developer of autonomous driving software. The company pivoted multiple times but struggled to commercialize its products successfully despite raising substantial funding. It ultimately could not secure the long-term investment needed for commercialization. Select VC investors: OpenAI Startup Fund, Khosla Ventures, Coatue. Total equity funding: $239M. Peak valuation: $518M."
+    "description": "Ghost Autonomy was a developer of autonomous driving software initially focused on supporting highway navigation for passenger vehicles. The company pivoted multiple times over the years, but it struggled to commercialize its products successfully despite raising substantial funding. Ultimately, the company indicated it didn’t see a path to securing the long-term investment it needed to continue developing and eventually commercialize its autonomous driving solutions."
   },
   {
     "company": "Zeus Living",
-    "description": "Zeus Living leased and furnished properties for corporate extended stays. The startup’s valuation was hit hard at the start of the pandemic, and rising interest rates eventually prevented it from generating sufficient revenue. Select VC investors: Airbnb, Comcast Ventures, Alumni Ventures. Total equity funding: $139M. Peak valuation: $205M."
+    "description": "Zeus Living leased and furnished properties to sublet them to corporate employees interested in extended stays. The startup’s valuation was hit hard as business dried up at the start of the pandemic, but the company stayed afloat by switching its focus to healthcare workers and remote employees. However, rising interest rates increased the cost of home buying, preventing Zeus Living from generating sufficient revenue on its property investments."
   },
   {
     "company": "Avail",
-    "description": "Avail developed technologies that enabled clinicians to communicate with parties outside the operating room. It struggled to maintain momentum in the post-pandemic period and could not secure the new capital necessary for growth. Select VC investors: D1 Capital Partners, Playground Global, Coatue, Baidu Ventures. Total equity funding: $138M. Peak valuation: $290M."
+    "description": "Avail developed technologies that enabled clinicians to communicate with parties outside the operating room, such as medical device sales reps and medical advisors. Its offering rapidly gained momentum as ORs rushed to adapt to social distancing protocols amid the Covid-19 pandemic. However, the startup struggled to raise fresh capital as pandemic-era restrictions were lifted and ORs returned to normal, forcing it to close in November 2023. In March 2024, surgical robotics startup Mendaera acquired Avail’s telepresence technology."
   },
   {
     "company": "Superpedestrian",
-    "description": "Superpedestrian was a micromobility startup focused on electric scooters. It faced challenges including city regulations, compliance costs, and financial strain. A planned merger fell through, forcing it to close. Select VC investors: General Catalyst, Sony Innovation Fund, Citi Ventures, Spark Capital. Total equity funding: $118M. Peak valuation: $560M."
+    "description": "Superpedestrian was a transportation robotics startup focused on micromobility devices like electric scooters. The company raised several funding rounds following its founding in 2012, drawing support from prominent institutional and individual investors. However, Superpedestrian ran into several challenges, including city regulations, compliance costs, a lack of marketing, and ultimately, financial strain. The company sought an exit via M&A, but the deal fell through, forcing it to close."
   },
   {
     "company": "Phantom Auto",
-    "description": "Phantom Auto initialy supported autonomous vehicles on public roads before pivoting to logistics. It failed to secure the additional funding necessary to continue operations amid the venture slowdown. Select VC investors: Alumni Ventures, Bessemer Venture Partners, ArcBest, NFI. Total equity funding: $86M. Peak valuation: $525M."
+    "description": "Remote driving startup Phantom Auto started out supporting autonomous vehicles on public roads, such as robotaxis and self-driving trucks. Following a pivot to logistics, the company gained traction. However, its ability to scale remained contingent upon external funding sources, putting it in a vulnerable position as funding dried up amid the venture slowdown. Unable to close a new funding round, the company was forced to shutter its operations."
   },
   {
     "company": "Walking Fish Therapeutics",
-    "description": "Focused on B-cell-based therapies, Walking Fish Therapeutics was in the process of raising a Series B when an investor pulled out due to real estate debt concerns. Unable to replace the investor, the startup closed down. Select VC investors: First Spark Ventures, Northpond Ventures, Terra Magnum Capital Partners. Total equity funding: $73M. Peak valuation: $102M."
+    "description": "Walking Fish Therapeutics was focused on the development of B-cell-based therapies. It raised nearly $75M in pursuit of its mission to treat Fabry disease and other conditions. The company was in the process of raising a Series B round to kickstart clinical trials when one of its investors pulled out over real estate debt concerns. Unable to replace the investor and complete the round, the startup closed down and considered selling its therapeutic assets."
   },
   {
     "company": "Koyo",
-    "description": "Open banking lender Koyo Loans wound down after failing to raise equity funding. While flush with debt funding, it was unable to secure fresh capital amid broader economic turbulence."
+    "description": "Title: Open banking lender Koyo Loans winds down after failing to raise funding"
   },
   {
     "company": "Intergalactic Therapeutics",
-    "description": "A gene therapy startup focused on non-viral delivery via electroporation. It was unable to secure additional funding in a harsh environment for early-stage biotechnology."
+    "description": "Title: A once buzzy gene therapy startup lays off staff and shuts down"
   },
   {
     "company": "Multichain",
-    "description": "Cross-chain router protocol Multichain shuttered after its CEO was reportedly arrested in China and operational funds were confiscated."
+    "description": "Title: Crypto Project Multichain Shuts Down, Says CEO Arrested in China"
   },
   {
     "company": "Recur",
-    "description": "NFT platform Recur closed due to unforeseen challenges and significant shifts in the business landscape, having reached the end of its runway from its 2021 funding."
+    "description": "Title: RECUR, once worth more than $300 million, is just the latest NFT venture to crash and burn"
   },
   {
     "company": "Casai",
-    "description": "Mexico-based proptech Casai folded due to an investment drought and a business model that was no longer favored by VC investors."
+    "description": "Title: Casai, inspired by Mexico and Brazil"
   },
   {
     "company": "XACT Robotics",
-    "description": "Medical robotics startup that failed to generate significant revenue and was unable to raise capital or complete an acquisition."
+    "description": "Title: XACT Robotics shuts down, lays off 65"
   },
   {
     "company": "54gene",
-    "description": "African genomics startup that closed due to financial mismanagement, executive turnover, and the capital-intensive nature of the business."
+    "description": "Title: After raising $45 million, African genomics startup, 54Gene, shuts down"
   },
   {
     "company": "Fronted",
-    "description": "Digital lending startup for renters hit by rising interest rates and borrowing costs that doubled the planned product price."
+    "description": "Title: Startup founded by Apple and Monzo execs wanting to disrupt rental market closes"
   },
   {
     "company": "Resson",
-    "description": "Agtech firm that used drones and data analytics for crop management, abruptly shut down despite significant funding."
+    "description": "Title: Mahindra & Mahindra’s Canada-based associate firm Resson Aerospace winds up operations"
   },
   {
     "company": "BAKX Therapeutics",
-    "description": "Biotech focused on cancer therapies that dissolved due to scientific challenges and a difficult funding environment."
+    "description": "Title: UPDATE: Cell death biotech BAKX dissolves in ‘challenging funding environment,’ ends Ipsen collab"
   },
   {
     "company": "Zume",
-    "description": "Softbank-backed robot pizza startup that burned through $446M. It struggled with technical issues like cheese sliding off pizzas and was unable to generate revenue."
+    "description": "Title: The $500 million robot pizza startup you never heard of has shut down, report says"
   },
   {
     "company": "IRL",
-    "description": "Unicorn social app that shut down after an internal investigation revealed that 95% of its 20M users were fake."
+    "description": "Title: Unicorn social app IRL to shut down after admitting 95% of its users were fake"
   },
   {
     "company": "Vedere Bio II",
-    "description": "Ocular gene therapeutics startup that closed after preclinical studies failed to meet efficacy criteria."
+    "description": "Title: Vedere Bio II, unable to replicate past work that led to Novartis acquisition, closes up shop"
   },
   {
     "company": "Fuzzy",
-    "description": "Pet healthcare startup that shuttered due to financial mismanagement and an economically unviable business model."
+    "description": "Title: San Francisco startup Fuzzy shuts down after raising $80 million"
   },
   {
     "company": "Buzzer",
-    "description": "Live sports streaming startup that failed to transition from a B2C to a B2B model in a tight fundraising market."
+    "description": "Title: Buzzer, the Gen Z Sports App Backed by $44 Million, Shutters"
   },
   {
     "company": "Cana Technology",
-    "description": "Molecular beverage printer startup that was unable to secure funding to manufacture and ship devices despite having a prototype."
-  },
-  {
-    "company": "Wyre",
-    "description": "Crypto infrastructure platform that wound down due to poor market conditions after a $1.5B acquisition deal fell through."
+    "description": "Title: Cana, The Startup Building a Make-Any-Drink Beverage Printer, Shuts Down"
   },
   {
     "company": "Summation Bio",
-    "description": "Gene therapy biotech that closed when its research revealed the therapies would not work as expected."
+    "description": "Title: RA Capital-backed gene therapy startup Summation Bio shuts down"
   },
   {
     "company": "Seeker Biologics",
-    "description": "Biotech focused on autoimmune diseases that fell short of drug discovery goals in a demanding market."
+    "description": "Title: 5AM Ventures-backed biotech startup shuts down"
   },
   {
     "company": "Tessera",
-    "description": "NFT ownership platform that wound down after analyzing market scenarios and its financial situation."
+    "description": "Title: Paradigm-Backed NFT Ownership Platform Tessera is Shutting Down"
   },
   {
     "company": "Mandolin",
-    "description": "Livestream concert platform that thrived during the pandemic but struggled as in-person tours resumed."
+    "description": "Title: Livestream Platform Mandolin Shuts Down After Three Years"
   },
   {
     "company": "Goldfinch Bio",
-    "description": "Kidney treatment biotech that closed after disappointing clinical trial results and funding challenges."
+    "description": "Title: Goldfinch Bio falls from the sky after failing to find a path forward for kidney treatments"
   },
   {
     "company": "Mindstrong",
-    "description": "Mental health platform that achieved unicorn status but failed to stay afloat during a funding slowdown."
+    "description": "Title: Mindstrong sells tech assets to SonderMind, shuts down operations"
   },
   {
     "company": "Aristea Therapeutics",
-    "description": "Biotech startup that shuttered its business after safety concerns were found in its lead drug's clinical trials."
+    "description": "Title: Faced with safety issues over inflammation drug, AstraZeneca spinout Aristea closes shop"
   },
   {
     "company": "CODA Biotherapeutics",
-    "description": "Gene therapy startup for neurological diseases that ceased operations amid a slowdown in venture funding."
+    "description": "Title: Biotech pain continues as Versant, MPM gene therapy startup calls it quits"
   },
   {
     "company": "Tascent",
-    "description": "Biometric authentication startup that failed due to the difficulty of scaling manufacturing processes."
+    "description": "Title: Market difficulties take Tascent"
   },
   {
     "company": "New Age Meats",
-    "description": "Cultivated meat startup that ran out of money and hit a financial rough patch after building an expensive pilot facility."
+    "description": "Title: Cultivated meat maker New Age Eats shuts down"
   },
   {
     "company": "Food Rocket",
-    "description": "Ultrafast grocery delivery firm that burned through funding and was unable to bring in additional capital."
+    "description": "Title: Food Rocket Shuts Down as Ultrafast Delivery Faces Reckoning"
   },
   {
     "company": "Clim8",
-    "description": "Sustainable investment fintech that was unable to secure further venture capital due to rising inflation and market shifts."
+    "description": "Title: Sustainable investment fintech Clim8 shutters"
   },
   {
     "company": "TenureX",
-    "description": "Fintech startup that closed due to a lack of funding despite finding product-market fit."
+    "description": "Title: Fintech startup TenureX shuts down after funding dries up"
   },
   {
     "company": "Formfunction",
-    "description": "Solana NFT marketplace that shuttered amid a slump in the Solana NFT market."
+    "description": "Title: Formfunction to shutter marketplace amid Solana NFT slump"
   },
   {
     "company": "Argo AI",
-    "description": "High-profile autonomous vehicle startup backed by Ford and VW. It shut down after failing to attract new investors for robotaxi development."
+    "description": "Title: Ford, VW-backed Argo AI is shutting down"
   },
   {
     "company": "Faze Medicines",
-    "description": "Biotech startup that focused on ALS treatments but folded when the science did not progress sufficiently for further investment."
+    "description": "Title: Third Rock-backed Faze Medicines shutters two years after launch"
   },
   {
     "company": "Triplet Therapeutics",
-    "description": "Gene-silencing biotech that wound down after discouraging clinical trial data from its competitors."
+    "description": "Title: Atlas-backed gene-silencing startup winds down"
   },
   {
     "company": "Nuri",
-    "description": "German crypto exchange that filed for insolvency after the collapse of a business partner and challenging market developments."
+    "description": "Title: German Crypto Exchange Nuri Shuts Down"
   },
   {
     "company": "GloriFi",
-    "description": "Neobank for conservatives that shut down following a turbulent launch characterized by workplace issues and vendor disputes."
+    "description": "Title: Neobank GloriFi shuts down following turbulent launch"
   },
   {
     "company": "Fifth Season Collection",
-    "description": "Vertical farming robotics startup that closed after struggling to raise capital for its capital-heavy operating model."
+    "description": "Title: Vertical farming robotics startup Fifth Season shuts down"
   },
   {
     "company": "ProntoPiso",
-    "description": "Spanish proptech startup that suffered due to pandemic-related challenges and a change in business model."
+    "description": "Title: La ‘start up’ ProntoPiso echa el cierre cinco años después"
   },
   {
     "company": "Kite",
-    "description": "AI-assisted coding startup that realized its product would not monetize effectively despite increasing developer speed."
+    "description": "Title: With Kite’s demise, can generative AI for code succeed?"
   },
   {
     "company": "Curb Food",
-    "description": "Dark kitchen network startup that proved unsustainable in poor capital market conditions."
+    "description": "Title: EQT-backat ”spökkök” lägger ned verksamheten"
+  },
+  {
+    "company": "Brodmann17",
+    "description": "Title: Computer vision technology startup Brodmann17 has shut down"
+  },
+  {
+    "company": "CommonBond",
+    "description": "Title: Student loan startup CommonBond is quietly winding down operations after the pandemic’s interest and payment pause massively hit its core business"
+  },
+  {
+    "company": "Reali",
+    "description": "Title: Reali to close down, reveals job cuts"
+  },
+  {
+    "company": "Quillion Tech",
+    "description": "Title: CPU Chip Company Quillion Technology Ceases Operations"
+  },
+  {
+    "company": "Kitty Hawk",
+    "description": "Title: Flying-Car Startup Kittyhawk to Shut Down"
+  },
+  {
+    "company": "Bank North",
+    "description": "Title: Bank North: SME neobank goes bust after failing to raise Series B"
+  },
+  {
+    "company": "Modsy",
+    "description": "Title: Modsy quietly shut down while some customers were still awaiting refunds"
+  },
+  {
+    "company": "ShopX",
+    "description": "Title: Ecommerce enabler ShopX shuts down operations"
+  },
+  {
+    "company": "Bolt Mobility",
+    "description": "Title: Micromobility startup Bolt abruptly shuts down in several cities"
+  },
+  {
+    "company": "Propzy",
+    "description": "Title: Vietnamese proptech startup Propzy to shut down"
+  },
+  {
+    "company": "B3i Services",
+    "description": "Title: Major insurers pull the plug on B3i insurance blockchain consortium"
+  },
+  {
+    "company": "Wriggle",
+    "description": "Title: Bristol restaurant app Wriggle closes down for good following pandemic"
+  },
+  {
+    "company": "Airlift",
+    "description": "Title: Airlift, Pakistan’s top startup, shutting down following funding crunch"
+  },
+  {
+    "company": "Butler",
+    "description": "Title: Butler shows hundreds of employees the door after raising $50M for room service delivery"
+  },
+  {
+    "company": "Kune",
+    "description": "Title: Nobody is shocked that this Kenyan food delivery startup failed after one year"
+  },
+  {
+    "company": "Volt Bank",
+    "description": "Title: Volt, Australi’s first online-only bank, shuts down due to fundraising woes"
+  },
+  {
+    "company": "Wingocard",
+    "description": "Title: Teen financial literacy app Wingocard shuts down"
+  },
+  {
+    "company": "BeyondMinds",
+    "description": "Title: AI startup BeyondMinds shutting down, laying off all 65 employees"
+  },
+  {
+    "company": "Udayy",
+    "description": "Title: Edtech startup Udayy shuts down, lays off entire staff"
+  },
+  {
+    "company": "Crejo",
+    "description": "Title: Matrix Backed Edtech Startup Crejo.Fun Shuts Down; Failed To Raise Funding"
+  },
+  {
+    "company": "Ahead",
+    "description": "Title: Mental Health Startup Ahead Shuts Down"
+  },
+  {
+    "company": "WanderJaunt",
+    "description": "Title: San Francisco Airbnb rival WanderJaunt abruptly shuts down, vanishes with barely a trace"
+  },
+  {
+    "company": "myNurse",
+    "description": "Title: Health startup myNurse to shut down after data breach exposed health records"
+  },
+  {
+    "company": "Gavelytics",
+    "description": "Title: Litigation Analytics Company Gavelytics is Shutting Down Tomorrow"
+  },
+  {
+    "company": "Kaodim",
+    "description": "Title: Malaysian startup Kaodim to shut down on July 1, cites rising costs among challenges"
+  },
+  {
+    "company": "SuperLearn",
+    "description": "Title: Another edtech firm, SuperLearn shuts shop as capital dries out"
+  },
+  {
+    "company": "Chisel AI",
+    "description": "Title: AI software startup Chisel AI shuts down"
+  },
+  {
+    "company": "Fast",
+    "description": "Title: Fast shuts doors after slow growth, high burn precluded fundraising options"
+  },
+  {
+    "company": "Zero Grocery",
+    "description": "Title: Delivery Startup Suddenly Folds, Leaving Food Business Owners With Thousands in Unpaid Bills"
+  },
+  {
+    "company": "Munchies",
+    "description": "Title: Unilever-backed quick commerce startup Munchies shuts operations"
+  },
+  {
+    "company": "Fridge No More",
+    "description": "Title: Grocery Startup Fridge No More Shutters in Failed DoorDash Deal"
+  },
+  {
+    "company": "Lido Learning",
+    "description": "Title: Edtech startup Lido Learning shuts shop"
+  },
+  {
+    "company": "Humm",
+    "description": "Title: Humm closes, but tech lives on"
+  },
+  {
+    "company": "Nice Tuan",
+    "description": "Title: Alibaba looks on as Nice Tuan hits bottom"
+  },
+  {
+    "company": "Movez",
+    "description": "Title: Sport-tech startup Movez shutting down due to Roman Abramovich sanctions"
+  },
+  {
+    "company": "OnwardMobility",
+    "description": "Title: BlackBerry revival is officially dead as OnwardMobility shuts down"
+  },
+  {
+    "company": "Protonn",
+    "description": "Title: Digital solutions startup Protonn shutdown in less than a year after raising $9 million in Seed Fund"
+  },
+  {
+    "company": "Local Motors",
+    "description": "Title: Local Motors, the startup behind the Olli autonomous shuttle, has shut down"
+  },
+  {
+    "company": "Neufund",
+    "description": "Title: Once Promising German Digital Security Platform Neufund Shuts Down"
+  },
+  {
+    "company": "askRobin",
+    "description": "Title: Estonian FinTech startup shuts down after reaching almost 2M customers"
+  },
+  {
+    "company": "Ikos",
+    "description": "Title: Ikos’ ‘winding down’ of operations comes after years of rapid growth for Pittsburgh-based rental platform"
+  },
+  {
+    "company": "LendUp",
+    "description": "Title: CFPB shuts down payday lender it calls ‘a darling’ of venture capital"
+  },
+  {
+    "company": "Binance",
+    "description": "Title: Binance shuts down Singapore cryptocurrency exchange"
+  },
+  {
+    "company": "1520",
+    "description": "Title: Instant delivery startup 1520 reportedly closes its doors"
+  },
+  {
+    "company": "Apervita",
+    "description": "Title: Apervita ceases operations"
+  },
+  {
+    "company": "Yunniao",
+    "description": "Title: Logistics unicorn backed by U.S. investors goes bankrupt"
+  },
+  {
+    "company": "Payvision",
+    "description": "Title: ING Phases out Payvision"
+  },
+  {
+    "company": "YCloset",
+    "description": "Title: Alibaba-backed fashion rental app YCloset shuts down after five years"
+  },
+  {
+    "company": "KupiVIP & Mamsy",
+    "description": "Title: Russian Online Retail Pioneer KupiVIP Shuts Down"
+  },
+  {
+    "company": "Abundant Robotics",
+    "description": "Title: US: fruit harvesting robot company shuts down"
+  },
+  {
+    "company": "Yelo",
+    "description": "Title: Exclusive: Matrix-backed neo-banking app Yelo shuts down"
+  },
+  {
+    "company": "Orthrus Studios",
+    "description": "Title: Distant Kingdoms dev Orthrus Studios shuts down after entire team is laid off"
+  },
+  {
+    "company": "Houseparty",
+    "description": "Title: Epic Games to shut down Houseparty in October, including the video chat ‘Fortnite Mode’ feature"
+  },
+  {
+    "company": "Mastree",
+    "description": "Title: Unacademy shuts Mastree after a year of acquisition"
+  },
+  {
+    "company": "Katerra",
+    "description": "Title: Katerra Commences U.S. Court-Supervised Process to Implement Financial Restructuring"
+  },
+  {
+    "company": "Madefire",
+    "description": "Title: Digital comics startup Madefire is shutting down"
+  },
+  {
+    "company": "Aerion Corporation",
+    "description": "Title: Aerion Supersonic shuts down, ending plans to build silent high speed business jets"
+  },
+  {
+    "company": "SuperData Research",
+    "description": "Title: Nielsen to Shut Down its SuperData Gaming Division"
+  },
+  {
+    "company": "Hey Tiger",
+    "description": "Title: A Farewell Letter From Our Founder, Cyan Ta’eed"
+  },
+  {
+    "company": "Beam",
+    "description": "Title: FTC shuts down savings app Beam under tentative settlement"
+  },
+  {
+    "company": "JAAK",
+    "description": "Title: Early blockchain music startup Jaak has shut down"
+  },
+  {
+    "company": "V1 Interactive",
+    "description": "Title: Disintegration developer V1 Interactive shuts down"
+  },
+  {
+    "company": "Quibi",
+    "description": "Title: Quibi Is Shutting Down Barely Six Months After Going Live"
+  },
+  {
+    "company": "Aura Financial",
+    "description": "Title: Hammered by pandemic, consumer lender Aura shuts down"
+  },
+  {
+    "company": "Loon",
+    "description": "Title: Alphabet punctures Loon internet balloon project"
+  },
+  {
+    "company": "Xinja",
+    "description": "Title: Australian neobank Xinja throws in the towel"
+  },
+  {
+    "company": "GoBear",
+    "description": "Title: Financial services firm GoBear closing business"
+  },
+  {
+    "company": "Quantopian",
+    "description": "Title: A Crowdsourced Quant Fund Fizzles in Era of Democratized Trading"
+  },
+  {
+    "company": "AWOK",
+    "description": "Title: Dubai’s Awok shuts down just a year after raising $30 million Series A"
+  },
+  {
+    "company": "Brideside",
+    "description": "Title: Wedding apparel retailer Brideside abruptly shuts down"
+  },
+  {
+    "company": "Joonko",
+    "description": "Title: The fintech company Joonko to cease operations after only 12 months of existence"
+  },
+  {
+    "company": "HubHaus",
+    "description": "Title: Bay Area co-living startup HubHaus implodes, stranding renters and homeowners"
+  },
+  {
+    "company": "TerrAvion",
+    "description": "Title: TerrAvion Abruptly Files For Bankruptcy, Ceases Operations"
+  },
+  {
+    "company": "Rubica",
+    "description": "Title: Seattle cybersecurity startup Rubica shuts down after running out of cash"
+  },
+  {
+    "company": "Haven",
+    "description": "Title: Haven, the Amazon-Berkshire-JPMorgan venture to disrupt health care, is disbanding after 3 years"
+  },
+  {
+    "company": "TenX",
+    "description": "Title: Crypto payment and wallet project TenX shuts down"
+  },
+  {
+    "company": "Lumina Networks",
+    "description": "Title: SDN startup Lumina Networks closes shop, citing Covid-19 impact"
+  },
+  {
+    "company": "Atrium",
+    "description": "Title: $75M legal startup Atrium shuts down, lays off 100"
+  },
+  {
+    "company": "ScaleFactor",
+    "description": "Title: ScaleFactor Raised $100 Million In A Year Then Blamed Covid-19 For Its Demise. Employees Say It Had Much Bigger Problems."
+  },
+  {
+    "company": "Starsky Robotics",
+    "description": "Title: The End of Starsky Robotics"
+  },
+  {
+    "company": "Essential Products",
+    "description": "Title: Essential, Andy Rubin’s phone company, is shutting down"
+  },
+  {
+    "company": "Jumpshot",
+    "description": "Title: Avast Antivirus Is Shutting Down Its Data Collection Arm, Effective Immediately"
+  },
+  {
+    "company": "Sorabel",
+    "description": "Title: Indonesian fashion e-commerce startup Sorabel to shutter operations"
+  },
+  {
+    "company": "Hollar",
+    "description": "Title: Online dollar store Hollar to wind down"
+  },
+  {
+    "company": "The Outline",
+    "description": "Title: The Outline, an attempt to build a bolder kind of news site, appears to have met its end"
+  },
+  {
+    "company": "Stay Alfred",
+    "description": "Title: Stay Alfred to permanently close down"
+  },
+  {
+    "company": "Stockwell",
+    "description": "Title: Stockwell, the AI-vending machine startup formerly known as Bodega, is shutting down July 1"
+  },
+  {
+    "company": "Pillow and ApartmentJet",
+    "description": "Title: Expedia Shuts a Short-Term Rental Biz It Created From 2 Acquisitions"
+  },
+  {
+    "company": "Mixer",
+    "description": "Title: Microsoft is shutting down Mixer and partnering with Facebook Gaming"
+  },
+  {
+    "company": "Lasso",
+    "description": "Title: Facebook is dumping its failed TikTok clone Lasso to make way for its other TikTok clone on Instagram"
+  },
+  {
+    "company": "Trover",
+    "description": "Title: Photo-sharing startup Trover, started by Rich Barton and acquired by Expedia, is closing down"
+  },
+  {
+    "company": "Sienna Biopharmaceuticals",
+    "description": "Title: Sienna Biopharmaceuticals to shut down by end of week"
+  },
+  {
+    "company": "Vicis",
+    "description": "Title: The N.F.L.’s Favorite Helmet Maker Is in Financial Trouble"
+  },
+  {
+    "company": "Stratoscale",
+    "description": "Title: Stratoscale closes down, lays off 60"
+  },
+  {
+    "company": "Hipmunk",
+    "description": "Title: Four years after being acquired, Hipmunk is shutting down"
+  },
+  {
+    "company": "IgnitionOne",
+    "description": "Title: How IgnitionOne, an adtech company that holding company Dentsu bought for $275 million, wound up selling in a fire sale"
+  },
+  {
+    "company": "Omni",
+    "description": "Title: Omni storage & rentals fails, shutters, sells engineers to Coinbase"
+  },
+  {
+    "company": "Miaoshenghou",
+    "description": "Title: Miaoshenghou closes all 80 stores; another fresh food e-commerce company folds"
+  },
+  {
+    "company": "Juno",
+    "description": "Title: Gett Announces Closure of Juno and Strategic Partnership With Lyft"
+  },
+  {
+    "company": "CrediFi",
+    "description": "Title: RE data startup CrediFi to shut down following failed sale"
+  },
+  {
+    "company": "Kettlebell Kitchen",
+    "description": "Title: Kettlebell Kitchen Shuts Down Its Prepared Meal Delivery Service"
+  },
+  {
+    "company": "Vaniday",
+    "description": "Title: Rocket-Internet backed salon booking service Vaniday Singapore shuts shop"
+  },
+  {
+    "company": "Coolest Cooler",
+    "description": "Title: Crowdfunding disaster Coolest Cooler is shutting down and blaming tariffs for its downfall"
+  },
+  {
+    "company": "Inboard Technology",
+    "description": "Title: Electric skateboard startup Inboard is for sale and all employees have been laid off"
+  },
+  {
+    "company": "Spacious",
+    "description": "Title: WeWork is shutting down a restaurant coworking startup it acquired only 4 months ago"
+  },
+  {
+    "company": "8tracks",
+    "description": "Title: To everything there is a reason"
+  },
+  {
+    "company": "Tink Labs",
+    "description": "Title: Inside the Unraveling of Tink Labs"
+  },
+  {
+    "company": "uBiome",
+    "description": "Title: Health Testing Startup uBiome Files for Chapter 7 With Plans To Shut Down"
+  },
+  {
+    "company": "Singulex",
+    "description": "Title: East Bay blood testing company closes, laying off 71"
+  },
+  {
+    "company": "DAQRI",
+    "description": "Title: Another high-flying, heavily funded AR headset startup is shutting down"
+  },
+  {
+    "company": "Vreal",
+    "description": "Title: Moving on to new realities…"
+  },
+  {
+    "company": "Reach Robotics",
+    "description": "Title: Reach Robotics – End of the Road"
+  },
+  {
+    "company": "Oryx Vision",
+    "description": "Title: Low-Cost LiDAR Startup Oryx Vision Shuts Down"
+  },
+  {
+    "company": "Pellion Technologies",
+    "description": "Title: The death of a promising battery startup exposes harsh market realities"
+  },
+  {
+    "company": "Phytelligence",
+    "description": "Title: Ag tech startup Phytelligence shuts down after losing dispute over Cosmic Crisp apple variety"
+  },
+  {
+    "company": "DocTalk",
+    "description": "Title: Matrix Partners-backed health-tech startup DocTalk winds up operations"
+  },
+  {
+    "company": "Homepolish",
+    "description": "Title: Instagram Versus Reality at Failed Interior-Design Start-up Homepolish"
+  },
+  {
+    "company": "Mac & Mia",
+    "description": "Title: Kids’ Clothing Startup Mac & Mia Shuts Down"
+  },
+  {
+    "company": "Anki",
+    "description": "Title: Robotics startup Anki shuts down after burning through almost $200 million"
+  },
+  {
+    "company": "Stratolaunch",
+    "description": "Title: Space firm founded by billionaire Paul Allen closing operations"
+  },
+  {
+    "company": "Wow Air",
+    "description": "Title: Iceland’s Wow Air Shuts Down After Failing to Raise New Cash"
+  },
+  {
+    "company": "Panda TV",
+    "description": "Title: Panda TV Officially Shuts Down its Service"
+  },
+  {
+    "company": "Roadstar.ai",
+    "description": "Title: Roadstar.ai: The Rise and Fall of a Self-Driving Startup"
+  },
+  {
+    "company": "Seven Dreamers Laboratories",
+    "description": "Title: Laundroid company folds before its giant robot does"
+  },
+  {
+    "company": "Lesara",
+    "description": "Title: No investor found: Lesara’s online store is now offline"
+  },
+  {
+    "company": "Crazy Teacher",
+    "description": "Title: “Crazy Teacher” announced that it will stop operating"
+  },
+  {
+    "company": "Arivale",
+    "description": "Title: Scientific wellness startup Arivale closes abruptly in ‘tragic’ end to vision to transform personal health"
+  },
+  {
+    "company": "Aria Insights",
+    "description": "Title: Drone maker Aria Insights, formerly CyPhy Works, shuts down"
+  },
+  {
+    "company": "Shoes of Prey",
+    "description": "Title: The Shoes of Prey Journey Ends"
+  },
+  {
+    "company": "HomeShare",
+    "description": "Title: HomeShare Closing Its Doors"
+  },
+  {
+    "company": "Fabric",
+    "description": "Title: Sunsetting the Fabric App"
+  },
+  {
+    "company": "Aiwujiwu",
+    "description": "Title: Chinese Online Property ‘Unicorn’ Aiwujiwu Shuts Down"
+  },
+  {
+    "company": "Arrivo",
+    "description": "Title: Hyperloop startup Arrivo is shutting down"
+  },
+  {
+    "company": "Chariot",
+    "description": "Title: Important Update from Chariot"
+  },
+  {
+    "company": "Fifth Dimension",
+    "description": "Title: Predictive Analytics Company Fifth Dimension Shuts Down"
+  },
+  {
+    "company": "Munchery",
+    "description": "Title: Thank you for making a place for us at your table"
+  },
+  {
+    "company": "Naya Health",
+    "description": "Title: Breast pump start-up Naya Health shuts down after failing to raise money"
+  },
+  {
+    "company": "Onavo",
+    "description": "Title: Apple removed Facebook’s Onavo from the App Store for gathering app data"
+  },
+  {
+    "company": "Poppy Care Company",
+    "description": "Title: With Heavy Hearts, Poppy is Discontinuing its Services"
+  },
+  {
+    "company": "SCHAFT",
+    "description": "Title: Google parent to pull plug on bipedal robot development"
+  },
+  {
+    "company": "Airware",
+    "description": "Title: Drone startup Airware crashes, shuts down after burning $118M"
+  },
+  {
+    "company": "Alta Motors",
+    "description": "Title: Alta Motors reportedly shutting down production of [its] electric motorcycles"
+  },
+  {
+    "company": "CanadaDrugs.com",
+    "description": "Title: Fake meds draw concerns from online pharmacy users"
+  },
+  {
+    "company": "CloudMine",
+    "description": "Title: Center City’s CloudMine, $6M in debt, files for bankruptcy"
+  },
+  {
+    "company": "Defy Media",
+    "description": "Title: Defy Media, home of YouTube superstars Smosh, is shutting down"
+  },
+  {
+    "company": "Eleven James",
+    "description": "Title: What’s Happening to Subscription Watch Club Eleven James?"
+  },
+  {
+    "company": "Fastbee",
+    "description": "Title: I’d do it all over again, says founder of failed start-up Fastbee"
+  },
+  {
+    "company": "Henri Bendel",
+    "description": "Title: L Brands Takes Action to Increase Shareholder Value – Announces 2019 Closure of Henri Bendel Stores and Henri Bendel E-Commerce"
+  },
+  {
+    "company": "Liquavista",
+    "description": "Title: Amazon has shut down Liquavista"
+  },
+  {
+    "company": "Seatwave",
+    "description": "Title: GET ME IN! and Seatwave are shutting down"
+  },
+  {
+    "company": "Theranos",
+    "description": "Title: Theranos is shutting down"
+  },
+  {
+    "company": "Treato",
+    "description": "Title: Israeli medical intelligence startup Treato shuts down"
+  },
+  {
+    "company": "Wimdu",
+    "description": "Title: Wimdu, Rocket Internet’s Airbnb clone, to shut down this year ‘facing significant business challenges’"
+  },
+  {
+    "company": "Yogome",
+    "description": "Title: Months After Raising $27M, Education Startup Yogome Shuts Down Amid Fraud Allegations"
+  },
+  {
+    "company": "Apprenda",
+    "description": "Title: Troy-based Apprenda stopping operations, investor says"
+  },
+  {
+    "company": "Chef’d",
+    "description": "Title: Meal-kit company Chef’d suddenly shut down and laid off its hundreds of employees"
+  },
+  {
+    "company": "Bluesmart",
+    "description": "Title: A Journey Ends, the Travel Evolution Goes On…"
+  },
+  {
+    "company": "Cambridge Analytica",
+    "description": "Title: Cambridge Analytica and Scl Elections Commence Insolvency Proceedings and Release Results of Independent Investigation into Recent Allegations"
+  },
+  {
+    "company": "Fieldbook",
+    "description": "Title: Fieldbook is Shutting Down"
+  },
+  {
+    "company": "Puddle",
+    "description": "Title: Peer to Peer Micro-Credit Site Puddle Shuts Down"
+  },
+  {
+    "company": "Ivanka Trump",
+    "description": "Title: Ivanka Trump Closes $100 Million Fashion Business"
+  },
+  {
+    "company": "Doughbies",
+    "description": "Title: Team Doughbies is moving on"
+  },
+  {
+    "company": "Weddington Way",
+    "description": "Title: Weddington Way has closed"
+  },
+  {
+    "company": "Coinprism",
+    "description": "Title: ‘Colored coins’ startup Coinprism is shutting down"
+  },
+  {
+    "company": "Shyp",
+    "description": "Title: I can’t wait for you to see what we do next"
+  },
+  {
+    "company": "Kuvée",
+    "description": "Title: A $178 wine bottle that connects to Wi-Fi raised $6 million from investors, and now the startup is shutting down"
+  },
+  {
+    "company": "IntroNet",
+    "description": "Title: An experienced startup founder learns some new lessons"
+  },
+  {
+    "company": "Chorus",
+    "description": "Title: Dick Costolo explains why he shut down his fitness startup after 8 months: ‘We were up against hard-wired human behavior’"
+  },
+  {
+    "company": "Sansaire",
+    "description": "Title: High-tech cooking startup Sansaire shutting down, ceasing production of new sous vide device"
+  },
+  {
+    "company": "Baroo",
+    "description": "Title: Pet care startup Baroo shuts down as competitors raise hundreds of millions"
+  },
+  {
+    "company": "Zoomer",
+    "description": "Title: Confirmed: Zoomer is shutting down"
+  },
+  {
+    "company": "Doppler Labs",
+    "description": "Title: Dear customers, Once-Hot, Smart-Earbud Startup Doppler Labs To Shut Down"
+  },
+  {
+    "company": "Juicero",
+    "description": "Title: Juicero can’t “carry forward the Juicero mission”"
+  },
+  {
+    "company": "Blin.gy",
+    "description": "Title: My Mobile AR Start-Up Died So Yours Doesn’t Have To"
+  },
+  {
+    "company": "Teforia",
+    "description": "Title: Dear Teforia Customers and Partners"
+  },
+  {
+    "company": "Jawbone",
+    "description": "Title: Jawbone to Be Liquidated as Rahman Moves to Health Startup"
+  },
+  {
+    "company": "Pearl Automation",
+    "description": "Title: Auto startup Pearl shuts down"
+  },
+  {
+    "company": "Wikimart",
+    "description": "Title: How Wikimart.ru went bankrupt after raising dozens of millions"
+  },
+  {
+    "company": "Doorman",
+    "description": "Title: Package delivery startup Doorman is shutting down"
+  },
+  {
+    "company": "Raptr",
+    "description": "Title: Raptr is shutting down this month"
+  },
+  {
+    "company": "Sprig",
+    "description": "Title: Sprig Couldn’t Cut It In Food Delivery Space"
+  },
+  {
+    "company": "Beepi",
+    "description": "Title: Car startup Beepi sold for parts after potential exits to Fair, and then DGDG, broke down"
+  },
+  {
+    "company": "Auctionata",
+    "description": "Title: Auctionata Shutters After No Investor Is Found to Save Company"
+  },
+  {
+    "company": "Markafoni",
+    "description": "Title: Naspers e-commerce firm Markafoni to shut down"
+  },
+  {
+    "company": "Imzy",
+    "description": "Title: Imzy, the nicer Reddit, is shutting down"
+  },
+  {
+    "company": "HomeHero",
+    "description": "Title: There’s No Magic in Venture-Backed Home Care"
+  },
+  {
+    "company": "BTCjam",
+    "description": "Title: BTCjam Sets Closing Date. Users May Withdraw Stored Bitcoin until July"
+  },
+  {
+    "company": "AudienceScience",
+    "description": "Title: AudienceScience Shuts Its Doors Less Than A Month After P&G Client Loss"
+  },
+  {
+    "company": "Stayzilla",
+    "description": "Title: Stayzilla, India’s Airbnb for homestays, closes its service"
+  },
+  {
+    "company": "del.icio.us",
+    "description": "Title: Social bookmarking pioneer Delicious heads to the dead pool"
+  },
+  {
+    "company": "Quixey",
+    "description": "Title: Quixey closure reportedly due to Alibaba debt deal"
+  },
+  {
+    "company": "AOptix Technologies",
+    "description": "Title: It’s Lights Out for AOptix"
+  },
+  {
+    "company": "Quidsi",
+    "description": "Title: Amazon Pulls Quidsi Apps After Announcing Plan To Shut Down All Quidsi Sites"
+  },
+  {
+    "company": "Mobeam",
+    "description": "Title: The “Death of Paper Coupons” Will Have to Wait"
+  },
+  {
+    "company": "Guvera",
+    "description": "Title: Australian streaming startup Guvera has shut down after taking $185 million from investors"
+  },
+  {
+    "company": "snapCard",
+    "description": "Title: Wyre Pivoted Away from Consumer Bitcoin Payments"
+  },
+  {
+    "company": "Aquion Energy",
+    "description": "Title: Aquion Energy Files For Chapter 11 Bankruptcy"
+  },
+  {
+    "company": "Table8",
+    "description": "Title: Restaurant Reservation Startup Table8 Is Shutting Down"
+  },
+  {
+    "company": "LOYAL3",
+    "description": "Title: Discount Brokerage Loyal3 Shutting Down"
+  },
+  {
+    "company": "Plastc",
+    "description": "Title: Fintech ‘Plastc’ Shuts Down After Cancelling All 80,000 Pre Orders"
+  },
+  {
+    "company": "Rithmio",
+    "description": "Title: Chicago Startup Rithmio Has Shut Down"
+  },
+  {
+    "company": "ChaCha",
+    "description": "Title: ChaCha, unable to find financial answers, shuts down operations"
+  },
+  {
+    "company": "Dealstruck",
+    "description": "Title: Why is Finance for Small Business Still Broken?"
+  },
+  {
+    "company": "Shoes.com",
+    "description": "Title: Vancouver’s Shoes.com shuts down operations"
+  },
+  {
+    "company": "Lily Robotics",
+    "description": "Title: The Adventure Comes to an End"
+  },
+  {
+    "company": "VidAngel",
+    "description": "Title: VidAngel Just Crowdfunded $10M Using Reg A+ & Now Court Orders Video Streaming Business to Shut Down"
+  },
+  {
+    "company": "App.net",
+    "description": "Title: App.net is shutting down"
+  },
+  {
+    "task": "Title: Taskbob shuts shop"
+  },
+  {
+    "company": "Buildzar",
+    "description": "Title: Exclusive: Building materials marketplace Buildzar shuts down"
+  },
+  {
+    "company": "Vinaya",
+    "description": "Title: A lot more wearable woe as Vinaya restructures and seeks pivot to b2b"
+  },
+  {
+    "company": "Besomebody",
+    "description": "Title: Boston startup Besomebody, once featured on ‘Shark Tank,’ shuts down app"
+  },
+  {
+    "company": "Angel Sensor",
+    "description": "Title: Open source wearable Angel shuts down"
+  },
+  {
+    "company": "Loanbase/BitLendingClub",
+    "description": "Title: BitLendingClub Closing Soon Due to Regulatory Pressure"
+  },
+  {
+    "company": "Omniref",
+    "description": "Title: Y Combinator-backed Omniref is shutting down on January 31, 2017"
+  },
+  {
+    "company": "Bitphone",
+    "description": "Title: Bitphone closing due to regulatory requirements"
+  },
+  {
+    "company": "All Romance eBooks",
+    "description": "Title: All Romance eBooks is Shutting Down"
+  },
+  {
+    "company": "Opsh",
+    "description": "Title: A Final Farewell From The Opsh Founders"
+  },
+  {
+    "company": "Plain Vanilla Games",
+    "description": "Title: Plain Vanilla Closes Shop, Lays off Staff"
+  },
+  {
+    "company": "Pixelmage Games",
+    "description": "Title: Hello Hero’s Song Players"
+  },
+  {
+    "company": "Scarf",
+    "description": "Title: Alberta Health Services shuts down innovative meal-sharing system"
+  },
+  {
+    "company": "Shelfie",
+    "description": "Title: Shelfie to Shutdown on 31 January – Download Your eBooks NOW"
+  },
+  {
+    "company": "The Social Radio",
+    "description": "Title: #TheParrot says goodbye!"
+  },
+  {
+    "company": "WhatsOnRent",
+    "description": "Title: Exclusive: Online rental marketplace WhatsOnRent shuts shop; returns 50% funding"
+  },
+  {
+    "company": "The Happy Home Company",
+    "description": "Title: The Happy Home Company shuts down, team members move to Google"
+  },
+  {
+    "company": "SunEdison",
+    "description": "Title: How SunEdison went from Wall Street star to bankruptcy"
+  },
+  {
+    "company": "Wash.io",
+    "description": "Title: Washio Shuts Down Its On-Demand Dry Cleaning Service\nProduct: Wash.io"
+  },
+  {
+    "company": "Drugstore.com",
+    "description": "Title: Walgreens to Shut Down Drugstore.com, Focus On Own Website"
+  },
+  {
+    "company": "Maximum Play",
+    "description": "Title: MaxPlay lays off almost all workers as game engine startup switches to licensing"
+  },
+  {
+    "company": "Maximum Play",
+    "description": "Title: Failed HUD Helmet Maker Skully Spent Funding On Strippers And Exotic Cars: Lawsuit"
+  },
+  {
+    "company": "Gozoomo",
+    "description": "Title: Millions still in the bank, GoZoomo shuts shop, returns VC money. The whole story"
+  },
+  {
+    "company": "Picturelife",
+    "description": "Title: Photo-storage service Picturelife shuts down 18 months after being acquired"
+  },
+  {
+    "company": "Hivebeat",
+    "description": "Title: Why we’re shutting down Hivebeat and what we’ve learned along the way"
+  },
+  {
+    "company": "MobileIgniter",
+    "description": "Title: MobileIgniter to Shut Down After Five Years and Multiple Pivots"
+  },
+  {
+    "company": "Sonitus Medical",
+    "description": "Title: CMS Killed My $80M Venture-Backed Startup"
+  },
+  {
+    "company": "Gawker Media",
+    "description": "Title: Gawker Says Goodbye With Emotion and Defiance"
+  },
+  {
+    "company": "Karhoo",
+    "description": "Title: Uber rival Karhoo shuts down after blowing through a reported $250M in funding*"
+  },
+  {
+    "company": "Kitchensurfing",
+    "description": "Title: On-demand chef service Kitchensurfing shuts down"
+  },
+  {
+    "company": "Take Eat Easy",
+    "description": "Title: The right words to say goodbye"
+  },
+  {
+    "company": "PepperTap",
+    "description": "Title: The PepperTap Journey: our story"
+  },
+  {
+    "company": "BlackJet",
+    "description": "Title: Celeb-backed BlackJet Is Grounded. Again."
+  },
+  {
+    "company": "Dinner Lab",
+    "description": "Title: How Dinner Lab Blew Through $10 Million On A Failed Restaurant Startup"
+  },
+  {
+    "company": "Yeloha",
+    "description": "Title: Lights Out for Yeloha – Why We Shut Down the Solar Sharing Network"
+  },
+  {
+    "company": "SharpScholar",
+    "description": "Title: We Shut Down Our Edtech Startup. Here’s What We Learned."
+  },
+  {
+    "company": "Backplane",
+    "description": "Title: Lady Gaga’s startup Backplane burns out and sells assets"
+  },
+  {
+    "company": "Shuddle",
+    "description": "Title: Shuddle shuts down its ‘Uber for kids’ transportation service"
+  },
+  {
+    "company": "Jumio",
+    "description": "Title: Identity verification startup Jumio files for bankruptcy, will sell assets to early backer Eduardo Saverin"
+  },
+  {
+    "company": "TrustBuddy",
+    "description": "Title: TrustBuddy Loses Trust. Peer to Peer Platform Closes Following “Suspected Misconduct”, Swedish Police Contacted"
+  },
+  {
+    "company": "Fashion Project",
+    "description": "Title: After laying off most of its staff, clothing resale startup Fashion Project regroups"
+  },
+  {
+    "company": "PostGhost",
+    "description": "Title: Post Ghost Shutdown: An Open Letter to Twitter"
+  },
+  {
+    "company": "Chef Nightly",
+    "description": "Title: Chef Nightly food delivery app shuts down amid intense competition"
+  },
+  {
+    "company": "Leap Transit",
+    "description": "Title: Behind the Failure of Leap Transit’s Gentrified Buses in San Francisco"
+  },
+  {
+    "company": "KiOR",
+    "description": "Title: How Tech Billionaire Vinod Khosla’s Biofuel Dream Went Bad"
+  },
+  {
+    "company": "Healthspot",
+    "description": "Title: Why did HealthSpot fail? The telemedicine industry weighs in"
+  },
+  {
+    "company": "Flytenow",
+    "description": "Title: The Beginning of the End"
+  },
+  {
+    "company": "Delivree King",
+    "description": "Title: Dehli-based logistics startup Delivree King shuts down"
+  },
+  {
+    "company": "Top 10",
+    "description": "Title: London hotel ranking startup Top10 raised $12 million in funding — but now it’s shutting down"
+  },
+  {
+    "company": "Prismatic",
+    "description": "Title: Prismatic is shutting down its news app for iOS, Android, and Web on December 20"
+  },
+  {
+    "company": "Carrier IQ",
+    "description": "Title: AT&T Snaps Up Assets, Talent From Carrier iQ, Phone Monitoring Startup Goes Offline"
+  },
+  {
+    "company": "Laguna Pharmaceuticals",
+    "description": "Title: Heart Drug Safety Concerns Prompt Shutdown at Laguna Pharmaceuticals"
+  },
+  {
+    "company": "Pixable",
+    "description": "Title: Pixable Closing Up Shop After One Crazy, Awesome Ride"
+  },
+  {
+    "company": "Bonafide",
+    "description": "Title: Bitcoin Reputation Startup Bonafide to Shut Down"
+  },
+  {
+    "company": "Dine In",
+    "description": "Title: After Falling Through The Series A Gap, Restaurant Delivery Startup Dine In Shutters"
+  },
+  {
+    "company": "Quirky",
+    "description": "Title: The Rise and Fall of Quirky — the Start-Up That Bet Big on the Genius of Regular Folks"
+  },
+  {
+    "company": "Homejoy",
+    "description": "Title: Homejoy Shuts Down After Battling Worker Classification Lawsuits"
+  },
+  {
+    "company": "QBotix",
+    "description": "Title: RIP QBotix: Robotic Solar Tracking Fails to Reach the Market"
+  },
+  {
+    "company": "Vatler",
+    "description": "Title: Inside story of VATLER’s shut down"
+  },
+  {
+    "company": "Better",
+    "description": "Title: Lessons From Mayo Clinic-backed Better Shutting Down"
+  },
+  {
+    "company": "Shopa",
+    "description": "Title: Shopa shuts down just months after raising £7m in growth capital"
+  },
+  {
+    "company": "Zirtual",
+    "description": "Title: What Happened and What’s Next"
+  },
+  {
+    "company": "UDesign",
+    "description": "Title: My Startup Failed and This is How It Went Down"
+  },
+  {
+    "company": "Balanced",
+    "description": "Title: Migrating from Balanced to Stripe"
+  },
+  {
+    "company": "Wardrobe Wake-Up",
+    "description": "Title: Wardrobe Wake-Up to Shut Down"
+  },
+  {
+    "company": "Why Own It",
+    "description": "Title: Verleih App, Shareconomy"
+  },
+  {
+    "company": "Melotic",
+    "description": "Title: Melotic Exchange Shutting Down"
+  },
+  {
+    "company": "GigaOm",
+    "description": "Title: A Statement about GigaOm"
+  },
+  {
+    "company": "Ordr.in",
+    "description": "Title: Why This Google-Backed Brooklynite Says Congress Could Have Saved His Business"
+  },
+  {
+    "company": "Talentpad",
+    "description": "Title: Talentpad Is Shutting Down"
+  },
+  {
+    "company": "37Coins",
+    "description": "Title: Today, We Are Shutting Down 37Coins"
+  },
+  {
+    "company": "Campus",
+    "description": "Title: Build Campus Is Shutting Down"
+  },
+  {
+    "company": "Lumos",
+    "description": "Title: Five Reasons Why My IoT Startup Failed"
+  },
+  {
+    "company": "ratemyspeech",
+    "description": "Title: Let It Go, Let It Go…Sunset of My First Startup"
+  },
+  {
+    "company": "RewardMe",
+    "description": "Title: Premature Scaling Killed Us"
+  },
+  {
+    "company": "Poliana",
+    "description": "Title: The Life and Death of a Political Startup"
+  },
+  {
+    "company": "Kinly",
+    "description": "Title: The Idea Is Dead…Love Live the Idea"
+  },
+  {
+    "company": "Kolos",
+    "description": "Title: 10 Lessons I Learned From Burning Through $50,000 on a Hardware Project That Bombed"
+  },
+  {
+    "company": "College Inside View",
+    "description": "Title: Case Study of a Failed Startup"
+  },
+  {
+    "company": "ComboCats Studio",
+    "description": "Title: Traps for Friends – Our Attempt at Fair IAP Multiplayer"
+  },
+  {
+    "company": "Bitshuva",
+    "description": "Title: My Startup’s Dead! 5 Things I Learned"
+  },
+  {
+    "company": "Allmyapps",
+    "description": "Title: Story of an Almost Successful French Startup"
+  },
+  {
+    "company": "99dresses",
+    "description": "Title: My startup failed, and this is what it feels like…"
+  },
+  {
+    "company": "Dinnr",
+    "description": "Title: Seven lessons I learned from the failure of my first startup, Dinnr"
+  },
+  {
+    "company": "Seismic Video",
+    "description": "Title: How I Failed Launching Seismic Video"
+  },
+  {
+    "company": "Treehouse Logic",
+    "description": "Title: Thoughts on shutting down Treehouse Logic"
+  },
+  {
+    "company": "Backchat",
+    "description": "Title: The End of a Great Experience"
+  },
+  {
+    "company": "Patient Communicator",
+    "description": "Title: Why Patient Communicator Failed"
+  },
+  {
+    "company": "Twitpic",
+    "description": "Title: Twitpic is shutting down"
+  },
+  {
+    "company": "Rivet & Sway",
+    "description": "Title: The inside story of Rivet & Sway"
+  },
+  {
+    "company": "Disruptive Media",
+    "description": "Title: The Disruptive Advantage 3"
+  },
+  {
+    "company": "Calxeda",
+    "description": "Title: Low power won’t bag ARM the server crown"
+  },
+  {
+    "company": "Tutorspree",
+    "description": "Title: When SEO fails – Single channel dependency and the end of Tutorspree"
+  },
+  {
+    "company": "Nirvanix",
+    "description": "Title: A Nirvanix Postmortem – Why There’s No Replacement For Due Diligence"
+  },
+  {
+    "company": "Serendip",
+    "description": "Title: Serendip Is Shutting Down"
+  },
+  {
+    "company": "Manilla",
+    "description": "Title: Manilla Is Shutting Down"
+  },
+  {
+    "company": "Pumodo",
+    "description": "Title: A startup postmortem with a happy ending? ..in Thailand"
+  },
+  {
+    "company": "Admazely",
+    "description": "Title: Startup Failure: How it feels"
+  },
+  {
+    "company": "Findory",
+    "description": "Title: Starting Findory: The end"
+  },
+  {
+    "company": "FindIt",
+    "description": "Title: FindIt is shutting down – Thank you for all the support!"
+  },
+  {
+    "company": "MyFavorites",
+    "description": "Title: The little startup that couldn’t (a postmortem of MyFavorites)"
+  },
+  {
+    "company": "Outbox",
+    "description": "Title: Outbox is Shutting Down—A Note of Gratitude"
+  },
+  {
+    "company": "Argyle",
+    "description": "Title: Argyle Social is shutting down our service"
+  },
+  {
+    "company": "Exec",
+    "description": "Title: What I learned about online-to-offline"
+  },
+  {
+    "company": "Zumbox",
+    "description": "Title: Zumbox to Shutter its Operations"
+  },
+  {
+    "company": "Delight",
+    "description": "Title: Failed to delight: Post-mortem of my first startup"
+  },
+  {
+    "company": "Mochi Media",
+    "description": "Title: Mochi Media Winding Down Services"
+  },
+  {
+    "company": "Salorix",
+    "description": "Title: Salorix Shuts Operations"
+  },
+  {
+    "company": "Plancast",
+    "description": "Title: The Uphill Battle Of Social Event Sharing: A Post-Mortem for Plancast"
+  },
+  {
+    "company": "Intellibank",
+    "description": "Title: 7 Things I learned from Startup Failure"
+  },
+  {
+    "company": "Teamometer",
+    "description": "Title: Startup Lessons Learned from My First Startup"
+  },
+  {
+    "company": "Standout Jobs",
+    "description": "Title: A Postmortem Analysis of Standout Jobs"
+  },
+  {
+    "company": "Formspring",
+    "description": "Title: Formspring – A Postmortem"
+  },
+  {
+    "company": "Mass-customized Jeans",
+    "description": "Title: Internet Startup: Lessons from Failure"
+  },
+  {
+    "company": "Parceld",
+    "description": "Title: Lessons from my failed startup"
+  },
+  {
+    "company": "Saaspire",
+    "description": "Title: Lessons from my failed startup"
+  },
+  {
+    "company": "GroupSpaces",
+    "description": "Title: Looking back at 7 years with my startup GroupSpaces"
+  },
+  {
+    "company": "Zillionears.com",
+    "description": "Title: My Startup Failed. F@<#."
+  },
+  {
+    "company": "Everpix",
+    "description": "Title: Out of the Picture: Why the world’s best photo startup is going out of business (Editorial)"
+  },
+  {
+    "company": "HelloParking",
+    "description": "Title: Part Two of the HelloParking postmortem: a look back, and a new perspective"
+  },
+  {
+    "company": "Sonar",
+    "description": "Title: Postmortem of a Venture-Backed Startup"
+  },
+  {
+    "company": "Decide.com",
+    "description": "Title: Postmortem of a Venture-Backed, Acquired Startup"
+  },
+  {
+    "company": "Tigerbow",
+    "description": "Title: Tis the Season for a Tigerbow Post Mortem"
+  },
+  {
+    "company": "Vitoto",
+    "description": "Title: Vitoto Offically Shutting Down"
+  },
+  {
+    "company": "Flud",
+    "description": "Title: Why Startups Fail: A Postmortem For Flud, The Social Newsreader (Editorial)"
+  },
+  {
+    "company": "On-Q-ity",
+    "description": "Title: On-Q-ity, a Cancer Diagnostic Company: R.I.P. (A VC’s perspective)"
+  },
+  {
+    "company": "ArsDigita",
+    "description": "Title: ArsDigita – From Start-up to Bust-up"
+  },
+  {
+    "company": "Nouncer",
+    "description": "Title: The Last AnNounce(r)ment"
+  },
+  {
+    "company": "BricaBox",
+    "description": "Title: BricaBox: Goodbye World!"
+  },
+  {
+    "company": "Boompa.com",
+    "description": "Title: Boompa.com Launch Postmortem, Part 1: Research, Picking a Team, Office Space and Money"
+  },
+  {
+    "company": "YouCastr",
+    "description": "Title: YouCastr – A Post-Mortem"
+  },
+  {
+    "company": "Kiko",
+    "description": "Title: Lessons from Kiko, web 2.0 startup, about Its Failure"
+  },
+  {
+    "company": "Overto",
+    "description": "Title: Lessons Learned: Startup Failure Part 1"
+  },
+  {
+    "company": "Monitor110",
+    "description": "Title: Monitor110: A Post-Mortem (A VC’s perspective)"
+  },
+  {
+    "company": "NewsTilt",
+    "description": "Title: Why We Shut NewsTilt Down"
+  },
+  {
+    "company": "Link Management System",
+    "description": "Title: 6 reasons why my VC funded startup did fail"
+  },
+  {
+    "company": "PlayCafe",
+    "description": "Title: 10 Lessons from a Failed Startup"
+  },
+  {
+    "company": "SMSnoodle",
+    "description": "Title: Lessons from our Failed Startup"
+  },
+  {
+    "company": "Untitled Partners",
+    "description": "Title: Untitled Partners Post-Mortem"
+  },
+  {
+    "company": "Cryptine Networks",
+    "description": "Title: Key Lessons from Cryptine Networks’ Failure"
+  },
+  {
+    "company": "eCrowds",
+    "description": "Title: Post Mortem on a Failed Product"
+  },
+  {
+    "company": "RealTime Worlds",
+    "description": "Title: Hubris, ambition and mismanagement: the first post-mortem of RealTime Worlds (Editorial)"
+  },
+  {
+    "company": "Q&A Service",
+    "description": "Title: A Startup Idea Postmortem: Proof That Good Ideas Aren’t Always Good Business"
+  },
+  {
+    "company": "Backfence",
+    "description": "Title: Co-Founder Potts Shares Lessons Learned from Backfence Bust"
+  },
+  {
+    "company": "Sedna Wireless",
+    "description": "Title: What an Entrepreneur Learned from His Failed Startup (Interview)"
   }
 ]
