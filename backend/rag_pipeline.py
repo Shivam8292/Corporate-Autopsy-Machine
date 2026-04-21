@@ -18,6 +18,49 @@ FAILURE DATABASE \u2014 RETRIEVED EVIDENCE:
 STARTUP IDEA SUBMITTED FOR AUTOPSY:
 {idea}
 
+BEFORE scoring, consider these questions honestly:
+1. Does a proven market already exist for this idea?
+2. Are there successful companies doing something similar today?
+3. Is the timing good (2024-2025 context)?
+4. Does the founder have an obvious unfair advantage?
+
+If answers to 3 or more are YES → score should be below 55
+If answers to 2 are YES → score should be below 70
+If answers to 0-1 are YES → score can be 70+
+
+You are a balanced analyst, not a pessimist.
+Your job is ACCURACY, not drama.
+
+DEATH SCORE CALIBRATION — You MUST follow this scale strictly:
+
+0-20  → Strong idea. Proven market exists. Clear demand. 
+         Low competition or strong differentiation.
+         Example: A fintech tool in 2010, early food delivery apps.
+
+21-40 → Decent idea. Market exists but execution will be hard.
+         Some competition but survivable. Needs good timing.
+         Example: A niche SaaS for a specific industry.
+
+41-60 → Risky idea. At least 1-2 serious red flags.
+         Similar companies have struggled but some survived.
+         Market is crowded or unit economics are unclear.
+
+61-80 → Dangerous idea. 3+ structural problems visible.
+         Multiple companies have failed with this exact model.
+         Needs major pivot to survive.
+
+81-100 → Near-certain death. 4+ fatal flaws.
+          ONLY give this if the idea is nearly identical to a 
+          company in the failure database AND has no differentiation.
+          Example: Building Juicero again in 2025.
+
+STRICT RULES FOR SCORING:
+- Most ideas should score between 40-70
+- Only give 80+ if idea directly mirrors a failed company with zero differentiation
+- Only give below 30 if idea has clear market validation and no structural problems matching the failure database
+- deathScore MUST equal the weighted average of failureDNA weights multiplied by each factor's severity (1.0 = certain, 0.5 = possible)
+- If your highest failureDNA weight is 40% and severity is moderate, deathScore cannot exceed 65
+
 Based ONLY on the failure patterns in the evidence above, respond with a single valid JSON object. No markdown. No explanation. Just JSON.
 
 {{
@@ -92,7 +135,7 @@ async def run_autopsy(idea: str) -> dict:
             llm = ChatGroq(
                 groq_api_key=api_key,
                 model_name=os.getenv("GROQ_MODEL", "mixtral-8x7b-32768"),
-                temperature=0.2
+                temperature=0.1
             )
         elif provider == "google":
             api_key = os.getenv("GEMINI_API_KEY")
@@ -101,12 +144,12 @@ async def run_autopsy(idea: str) -> dict:
             llm = ChatGoogleGenerativeAI(
                 model="gemini-flash-lite-latest",
                 google_api_key=api_key,
-                temperature=0.2
+                temperature=0.1
             )
         else:
             llm = Ollama(
                 model=os.getenv("OLLAMA_MODEL", "mistral"),
-                temperature=0.2
+                temperature=0.1
             )
 
         # 6. Invoke LLM and strip json fences
