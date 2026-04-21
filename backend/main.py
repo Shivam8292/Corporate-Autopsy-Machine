@@ -11,6 +11,65 @@ from embeddings import get_embedding_function
 from rag_pipeline import run_autopsy
 from seed_data import ingest_baseline_data
 
+def validate_and_correct_score(result: dict) -> dict:
+    """
+    Prevents LLM from always returning 85.
+    Recalculates death score from failureDNA if LLM output seems biased.
+    """
+    dna = result.get("failureDNA", [])
+    
+    if not dna:
+        return result
+    
+    # Calculate weighted severity score from DNA factors
+    # Each factor contributes: weight * severity_multiplier
+    severity_keywords_high = [
+        "fatal", "certain", "impossible", "fraud", 
+        "bankrupt", "proven", "guaranteed"
+    ]
+    severity_keywords_low = [
+        "possible", "minor", "manageable", 
+        "addressable", "common", "typical"
+    ]
+    
+    weighted_score = 0
+    total_weight = 0
+    
+    for factor in dna:
+        weight = factor.get("weight", 25)
+        detail = factor.get("detail", "").lower()
+        
+        # Determine severity from language used
+        if any(word in detail for word in severity_keywords_high):
+            severity = 0.95
+        elif any(word in detail for word in severity_keywords_low):
+            severity = 0.5
+        else:
+            severity = 0.72  # neutral default
+        
+        weighted_score += weight * severity
+        total_weight += weight
+    
+    if total_weight > 0:
+        calculated_score = int(weighted_score / total_weight * 100)
+    else:
+        calculated_score = result.get("deathScore", 70)
+    
+    llm_score = result.get("deathScore", 70)
+    
+    # If LLM score is suspiciously between 80-90 (bias zone),
+    # blend it with calculated score
+    if 80 <= llm_score <= 90:
+        final_score = int((llm_score * 0.4) + (calculated_score * 0.6))
+    else:
+        final_score = llm_score
+    
+    # Hard clamp — nothing above 95 unless truly catastrophic
+    final_score = max(10, min(95, final_score))
+    
+    result["deathScore"] = final_score
+    return result
+
 @asynccontextmanager
 async def lifespan(app):
     # Auto-seed ChromaDB on startup
@@ -61,6 +120,7 @@ async def process_autopsy(req: AutopsyRequest):
     if "error" in result:
         raise HTTPException(status_code=500, detail=result)
     
+    result = validate_and_correct_score(result)
     return result
 
 @app.post("/ingest")
