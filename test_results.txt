@@ -1,0 +1,25 @@
+--- Testing idea: A tool that helps developers write better commit messages using AI ---
+Original LLM Score: 35
+Final Calibrated Score: 35
+Verdict: This is a classic 'feature-as-a-startup' trap with a high risk of being rendered obsolete by a single VS Code update. With 85% of developers already using AI-assisted coding tools, you are fighting for a tiny fraction of the $10B developer productivity market that is rapidly being consolidated by incumbents.
+
+--- Testing idea: Uber for dog walkers ---
+Original LLM Score: 35
+Final Calibrated Score: 35
+Verdict: The market is heavily saturated, making it difficult to achieve profitability when CAC often exceeds $150 per user. Without a unique value proposition beyond simple matching, you are fighting for a thin 15-20% commission in a race to the bottom.
+
+--- Testing idea: Premium smart juice press that connects to WiFi ---
+Original LLM Score: 92
+Final Calibrated Score: 92
+Verdict: This concept is a textbook case of technological hubris that ignores the $0 cost of squeezing fruit by hand. With a projected hardware cost exceeding $400 and a 90% likelihood of consumer rejection, the business model is fundamentally unsustainable.
+
+--- Testing idea: A new social network to replace Twitter ---
+Original LLM Score: 45
+Final Calibrated Score: 45
+Verdict: The market is currently dominated by incumbents with massive moats, making organic growth extremely expensive. Unless you can capture a specific sub-culture, you will likely burn through $10M+ in seed funding just to reach a 1% market penetration rate.
+
+--- Testing idea: SaaS tool for restaurant inventory management ---
+Original LLM Score: 35
+Final Calibrated Score: 35
+Verdict: The market is mature and highly competitive, requiring significant capital to overcome the 60% churn rate inherent in the restaurant industry. Unless you can achieve a CAC under $500 per location, the unit economics will likely fail to justify the development costs of deep POS integrations.
+

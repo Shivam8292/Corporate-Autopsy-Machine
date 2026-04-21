@@ -24,8 +24,8 @@ BEFORE scoring, consider these questions honestly:
 3. Is the timing good (2024-2025 context)?
 4. Does the founder have an obvious unfair advantage?
 
-If answers to 3 or more are YES → score should be below 55
-If answers to 2 are YES → score should be below 70
+If answers to 3 or more are YES → score MUST be below 40
+If answers to 2 are YES → score MUST be below 60
 If answers to 0-1 are YES → score can be 70+
 
 You are a balanced analyst, not a pessimist.
@@ -89,7 +89,8 @@ RULES:
 - failureDNA weights must sum to exactly 100
 - similarFailures must reference companies from the evidence context
 - verdict must include at least one real dollar figure or percentage
-- deathScore above 80 means near-certain failure
+- Do not let the retrieved evidence falsely inflate the deathScore. A brilliant idea might share keywords with a failed one. Look for genuine differentiation.
+- STRICTLY adhere to the DEATH SCORE CALIBRATION scale (e.g., if you answered YES to 3+ questions, score MUST be < 55).
 """
 
 async def run_autopsy(idea: str) -> dict:
