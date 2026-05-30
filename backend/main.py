@@ -79,7 +79,7 @@ async def lifespan(app):
 app = FastAPI(title="Corporate Autopsy API", lifespan=lifespan)
 
 # Add CORS Middleware
-allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:5174,http://localhost:3000").split(",")
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:5174,http://localhost:3000,https://corporate-autopsy-machine.vercel.app").split(",")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
