@@ -1,7 +1,7 @@
 import os
 import json
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from embeddings import get_embedding_function
 from langchain_chroma import Chroma
 from dotenv import load_dotenv
 from langchain_core.documents import Document
@@ -17,9 +17,7 @@ def ingest_scraped_data():
         vectorstore = Chroma(
             collection_name=os.getenv("COLLECTION_NAME", "startup_failures"),
             persist_directory=os.getenv("CHROMA_PATH", "./chroma_db"),
-            embedding_function=HuggingFaceEmbeddings(
-                model_name=os.getenv("EMBED_MODEL", "all-MiniLM-L6-v2")
-            )
+            embedding_function=get_embedding_function()
         )
         
         splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=150)
